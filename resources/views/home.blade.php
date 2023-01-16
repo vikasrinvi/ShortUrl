@@ -76,7 +76,14 @@
                         </div>
                         @endforeach  
                     </tbody>
+                   
                 </table>
+                
             </div>
+            
+            
         </div>
+        <div class="pagination justify-content-center">
+                {{ $urls->links() }}
+            </div>
 @endsection

@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $urls = ShortURL::latest()->get();
+        $urls = ShortURL::latest()->paginate(5);
         return view('home', compact('urls'));
     }
 }
