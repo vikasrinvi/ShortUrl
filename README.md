@@ -56,7 +56,7 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git clone git@github.com:Itxshakiil/Laravel-Shop-App.git
+    git clone https://github.com/vikasrinvi/ShortUrl.git
     cd shortUrl
     composer install
     cp .env.example .env
